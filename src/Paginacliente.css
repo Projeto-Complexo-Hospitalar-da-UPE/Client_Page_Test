@@ -1,0 +1,119 @@
+body {
+    margin:0;
+    padding:0;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .Center{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Bar{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 15%;
+    z-index: -1;
+    background-color:  rgb(22, 61, 113);
+    z-index: 1;
+  }
+  
+
+.container_Exam_Icons {
+  margin-top: 15%;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+}
+
+
+.container_Exam_Icons button {
+  margin: 10px; 
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; 
+  flex: 0 0 calc(15% - 20px); 
+}
+
+.container_Exam_Icons button:hover {
+  background-color: #0056b3;
+}
+  
+  
+.container_Bar_Icons{
+  position: fixed;
+  transform: translate(-50%, 50%);
+  top: -8%;
+  left: 135px;
+  width: 180%;
+  height: 15%;
+  margin-bottom: 30%;
+  border: 1px solid rgba(255, 4, 4, 0);
+  z-index: 1;
+}
+  .SCH_UP{
+    position: fixed;
+    transform: translate(-50%, 50%);
+    height: 65%;
+    top: -16%;
+    left: 49%;
+    border-radius: 10px;}
+
+  .UPE_logo_UP{
+    position: fixed;
+    transform: translate(-50%, 50%);
+    height: 65%;
+    top: -16%;
+    right: 0%;
+    margin-left: 1%;
+    border-radius: 10px;}  
+
+
+      .container_Icon_Name{
+        position: fixed;
+        transform: translate(-50%, 50%);
+        top: 0%;
+        left: 74%;
+        width: 31%;
+        height: 45%;
+        border: 1px solid rgba(205, 255, 4, 0);}
+        .User_Name{
+          position: fixed;
+          transform: translate(-50%, 50%);
+          top: -20%;
+          height: 50%;
+          margin-left: 45%;
+          color:rgb(245, 253, 255);
+          text-align:left;
+          font-size: 90%;
+          }
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
